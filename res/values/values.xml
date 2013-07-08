@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item format="boolean" name="config_mms_content_disposition_support" type="bool">true</item>
+    <bool name="config_cellBroadcastAppLinks">false</bool>
+    <bool name="config_use_strict_phone_number_comparation">false</bool>
+</resources>
