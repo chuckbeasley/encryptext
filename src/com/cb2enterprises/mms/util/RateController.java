@@ -23,6 +23,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.database.Cursor;
+import android.preference.PreferenceManager;
 import cb2enterprises.android.database.sqlite.SqliteWrapper;
 import cb2enterprises.android.provider.Telephony.Mms.Rate;
 import android.util.Log;
@@ -32,7 +33,8 @@ public class RateController {
     private static final boolean DEBUG = false;
     private static final boolean LOCAL_LOGV = false;
 
-    private static final int RATE_LIMIT = 100;
+    // Rate limit is now set in preferences
+    //private static final int RATE_LIMIT = 100;
     private static final long ONE_HOUR = 1000 * 60 * 60;
 
     private static final int NO_ANSWER  = 0;
@@ -105,7 +107,8 @@ public class RateController {
         if (c != null) {
             try {
                 if (c.moveToFirst()) {
-                    return c.getInt(0) >= RATE_LIMIT;
+                    return c.getInt(0) >= PreferenceManager.getDefaultSharedPreferences(mContext)
+                                            .getInt("pref_key_rate_limit", 100);
                 }
             } finally {
                 c.close();

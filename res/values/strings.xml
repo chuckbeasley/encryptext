@@ -316,6 +316,8 @@
     <string name="pref_sms_settings_title">"Text (SMS) messages"</string>
     <!-- Settings screen, section heading for storage-specific settings -->
     <string name="pref_sms_storage_title">Storage</string>
+    <!-- Seeting screen, section heading for rate limit settings -->
+    <string name="pref_rateLimit_title">Rate Limit</string>
 
     <!-- Settings item description for entering SIM card message screen -->
     <string name="pref_summary_manage_sim_messages">Manage messages stored on your SIM card</string>
@@ -331,6 +333,7 @@
     <string name="pref_summary_delete_limit"><xliff:g id="count">%1$s</xliff:g> messages per conversation</string>
     <!-- Settings item description for boolean MMS enable group MMS setting -->
     <string name="pref_summary_mms_group_mms">Use MMS to send a single message when there are multiple recipients</string>
+    <string name="pref_summary_rate_limit">The maximum number of messages that can be sent in an hour</string>
     <!-- Settings item for entering SIM card message screen -->
     <string name="pref_title_manage_sim_messages">Manage SIM card messages</string>
     <!-- Settings item for boolean option to enable/disable MMS delivery reports -->

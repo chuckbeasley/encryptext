@@ -89,4 +89,11 @@
                         android:dependency="pref_key_enable_notifications"
                         android:defaultValue="false" />
   </PreferenceCategory>
+  <PreferenceCategory android:title="@string/pref_rateLimit_title"></PreferenceCategory>
+    <ListPreference android:key="pref_key_rate_limit"
+                        android:defaultValue="100"
+                        android:entries="@array/rate_limit"
+                        android:entryValues="@array/rate_limit_values"
+                        android:dialogTitle="@string/pref_rateLimit_title"
+                        android:summary="@string/pref_summary_rate_limit"/>
 </PreferenceScreen>

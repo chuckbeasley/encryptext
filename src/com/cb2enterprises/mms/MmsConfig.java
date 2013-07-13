@@ -18,7 +18,7 @@ package com.cb2enterprises.mms;
 
 import java.io.IOException;
 
-import com.android.mms.R;
+import com.cb2enterprises.mms.R;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 

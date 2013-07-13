@@ -28,240 +28,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f978b92d-fb21-469d-bef2-b0dffeca2933" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\gen\com\android\mms\BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\gen\com\android\mms\Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\gen\com\android\mms\R.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ContentRestrictionException.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ExceedMessageSizeException.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\LogTag.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\MmsApp.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\MmsConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ResolutionException.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\SuggestionsProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\TempFileProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\UnsupportContentTypeException.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\data\Contact.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\data\ContactList.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\data\Conversation.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\data\RecipientIdCache.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\data\WorkingMessage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\AttrImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\DocumentImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\ElementImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\NamedNodeMapImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\NodeImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\NodeListImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\events\EventImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\events\EventTargetImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\smil\ElementParallelTimeContainerImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\smil\ElementSequentialTimeContainerImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\smil\ElementTimeContainerImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\smil\ElementTimeImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\smil\SmilDocumentImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\smil\SmilElementImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\smil\SmilLayoutElementImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\smil\SmilMediaElementImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\smil\SmilParElementImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\smil\SmilPlayer.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\smil\SmilRefElementImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\smil\SmilRegionElementImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\smil\SmilRegionMediaElementImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\smil\SmilRootLayoutElementImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\smil\TimeImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\smil\TimeListImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\smil\parser\SmilContentHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\smil\parser\SmilXmlParser.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\dom\smil\parser\SmilXmlSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\drm\DrmUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\layout\HVGALayoutParameters.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\layout\LayoutManager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\layout\LayoutParameters.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\model\AudioModel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\model\CarrierContentRestriction.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\model\ContentRestriction.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\model\ContentRestrictionFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\model\IModelChangedObserver.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\model\ImageModel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\model\LayoutModel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\model\MediaModel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\model\MediaModelFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\model\Model.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\model\RegionMediaModel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\model\RegionModel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\model\SlideModel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\model\SlideshowModel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\model\SmilHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\model\TextModel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\model\VideoModel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\AbstractRetryScheme.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\DefaultRetryScheme.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\HttpUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\MessageSender.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\MessageStatusReceiver.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\MessageStatusService.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\MessagingNotification.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\MmsMessageSender.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\MmsSystemEventReceiver.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\NotificationPlayer.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\NotificationTransaction.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\Observable.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\Observer.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\PrivilegedSmsReceiver.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\ProgressCallbackEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\PushReceiver.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\ReadRecTransaction.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\RetrieveTransaction.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\RetryScheduler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\SendTransaction.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\SimFullReceiver.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\SmsMessageSender.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\SmsReceiver.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\SmsReceiverService.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\SmsRejectedReceiver.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\SmsSingleRecipientSender.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\Transaction.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\TransactionBundle.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\TransactionService.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\TransactionSettings.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\transaction\TransactionState.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\AdaptableSlideViewInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\AsyncDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\AttachmentEditor.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\AttachmentTypeSelectorAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\AudioAttachmentView.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\BasicSlideEditorView.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\ChipsRecipientAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\ClassZeroActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\ComposeMessageActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\ComposeMessageActivityNoLockScreen.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\ConfirmRateLimitActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\ConversationList.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\ConversationListAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\ConversationListItem.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\DeliveryReportActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\DeliveryReportAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\DeliveryReportItem.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\DeliveryReportListItem.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\Divot.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\EditSlideDurationActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\IconListAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\ImageAttachmentView.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\LayoutSelectorAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\ManageSimMessages.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\MessageItem.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\MessageListAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\MessageListItem.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\MessageListView.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\MessageUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\MessagingPreferenceActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\MiniPreferenceActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\MmsThumbnailPresenter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\NoConfirmationSendService.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\NumberPickerDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\Presenter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\PresenterFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\QuickContactDivot.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\RecipientListActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\RecipientsAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\RecipientsEditor.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\SearchActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\SlideEditorActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\SlideListItemView.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\SlideView.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\SlideViewInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\SlideshowActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\SlideshowAttachmentView.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\SlideshowEditActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\SlideshowEditor.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\SlideshowPresenter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\SmsStorageMonitor.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\UriImage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\VideoAttachmentView.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\ViewInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\ui\WarnOfStorageLimitsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\util\AddressUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\util\BackgroundLoaderManager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\util\BlobCache.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\util\CacheManager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\util\DownloadManager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\util\DraftCache.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\util\ImageCacheService.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\util\ItemLoadedCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\util\ItemLoadedFuture.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\util\NullItemLoadedFuture.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\util\PduLoaderManager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\util\PhoneNumberFormatter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\util\RateController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\util\Recycler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\util\SendingProgressTokenManager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\util\SimpleCache.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\util\SmileyParser.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\util\ThumbnailManager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\widget\MmsWidgetProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\android\mms\widget\MmsWidgetService.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\gen\com\android\smsautoreply\BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\gen\com\android\smsautoreply\Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\gen\com\android\smsautoreply\R.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\src\com\android\smsautoreply\AutoReplyActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\gen\com\android\mms\tests\BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\gen\com\android\mms\tests\Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\gen\com\android\mms\tests\R.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\android\mms\InterceptSendSms.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\android\mms\MmsLaunchPerformance.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\android\mms\MmsStability.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\android\mms\RecyclerTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\android\mms\SmsTestRunner.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\android\mms\ui\ComposeMessageActivityTests.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\android\mms\ui\ConversationListTests.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\android\mms\ui\LongThreadTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\android\mms\ui\MultiPartSmsTests.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\android\mms\ui\SmsStressTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\android\mms\ui\SmsTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\android\mms\util\HttpUtilsTests.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\android\mms\util\PhoneNumberComparisonTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\android\mms\util\SendIntentTests.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\android\mms\util\SmileyParserUnitTests.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\android\mms\util\SmsReceiverServiceTests.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\android\mms\util\VerifyRecipientUnitTests.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\android\mms\util\VideoCaptureTests.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/AndroidManifest.xml" afterPath="$PROJECT_DIR$/tests/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/SmsAutoReply/AndroidManifest.xml" afterPath="$PROJECT_DIR$/tests/SmsAutoReply/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cb2enterprises/com/google/android/mms/pdu/Base64.java" afterPath="$PROJECT_DIR$/src/cb2enterprises/com/google/android/mms/pdu/Base64.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cb2enterprises/com/android/ex/chips/BaseRecipientAdapter.java" afterPath="$PROJECT_DIR$/src/cb2enterprises/com/android/ex/chips/BaseRecipientAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cb2enterprises/com/google/android/mms/pdu/CharacterSets.java" afterPath="$PROJECT_DIR$/src/cb2enterprises/com/google/android/mms/pdu/CharacterSets.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cb2enterprises/android/provider/Downloads.java" afterPath="$PROJECT_DIR$/src/cb2enterprises/android/provider/Downloads.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cb2enterprises/com/google/android/mms/util/DrmConvertSession.java" afterPath="$PROJECT_DIR$/src/cb2enterprises/com/google/android/mms/util/DrmConvertSession.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cb2enterprises/com/google/android/mms/pdu/PduComposer.java" afterPath="$PROJECT_DIR$/src/cb2enterprises/com/google/android/mms/pdu/PduComposer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cb2enterprises/com/google/android/mms/pdu/PduContentTypes.java" afterPath="$PROJECT_DIR$/src/cb2enterprises/com/google/android/mms/pdu/PduContentTypes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cb2enterprises/com/google/android/mms/pdu/PduParser.java" afterPath="$PROJECT_DIR$/src/cb2enterprises/com/google/android/mms/pdu/PduParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cb2enterprises/com/google/android/mms/pdu/PduPart.java" afterPath="$PROJECT_DIR$/src/cb2enterprises/com/google/android/mms/pdu/PduPart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cb2enterprises/com/google/android/mms/pdu/PduPersister.java" afterPath="$PROJECT_DIR$/src/cb2enterprises/com/google/android/mms/pdu/PduPersister.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cb2enterprises/com/android/internal/telephony/Phone.java" afterPath="$PROJECT_DIR$/src/cb2enterprises/com/android/internal/telephony/Phone.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cb2enterprises/com/android/internal/telephony/PhoneConstants.java" afterPath="$PROJECT_DIR$/src/cb2enterprises/com/android/internal/telephony/PhoneConstants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cb2enterprises/android/telephony/PhoneNumberUtils.java" afterPath="$PROJECT_DIR$/src/cb2enterprises/android/telephony/PhoneNumberUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cb2enterprises/com/android/ex/chips/RecipientAlternatesAdapter.java" afterPath="$PROJECT_DIR$/src/cb2enterprises/com/android/ex/chips/RecipientAlternatesAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cb2enterprises/com/android/ex/chips/RecipientChip.java" afterPath="$PROJECT_DIR$/src/cb2enterprises/com/android/ex/chips/RecipientChip.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cb2enterprises/com/android/ex/chips/RecipientEditTextView.java" afterPath="$PROJECT_DIR$/src/cb2enterprises/com/android/ex/chips/RecipientEditTextView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cb2enterprises/android/provider/Telephony.java" afterPath="$PROJECT_DIR$/src/cb2enterprises/android/provider/Telephony.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cb2enterprises/com/android/internal/telephony/TelephonyIntents.java" afterPath="$PROJECT_DIR$/src/cb2enterprises/com/android/internal/telephony/TelephonyIntents.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cb2enterprises/android/telephony/TelephonyManager.java" afterPath="$PROJECT_DIR$/src/cb2enterprises/android/telephony/TelephonyManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/audio_attachment_view.xml" afterPath="$PROJECT_DIR$/res/layout/audio_attachment_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/compose_message_activity.xml" afterPath="$PROJECT_DIR$/res/layout/compose_message_activity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/conversation_list_item.xml" afterPath="$PROJECT_DIR$/res/layout/conversation_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/delivery_report_list_item.xml" afterPath="$PROJECT_DIR$/res/layout/delivery_report_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/edit_slide_activity.xml" afterPath="$PROJECT_DIR$/res/layout/edit_slide_activity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/image_attachment_view.xml" afterPath="$PROJECT_DIR$/res/layout/image_attachment_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/message_list_item_recv.xml" afterPath="$PROJECT_DIR$/res/layout/message_list_item_recv.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/message_list_item_send.xml" afterPath="$PROJECT_DIR$/res/layout/message_list_item_send.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/recipients_editor.xml" afterPath="$PROJECT_DIR$/res/layout/recipients_editor.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/search_item.xml" afterPath="$PROJECT_DIR$/res/layout/search_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/slideshow.xml" afterPath="$PROJECT_DIR$/res/layout/slideshow.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/slideshow_attachment_view.xml" afterPath="$PROJECT_DIR$/res/layout/slideshow_attachment_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/slideshow_edit_item.xml" afterPath="$PROJECT_DIR$/res/layout/slideshow_edit_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cb2enterprises/mms/LogTag.java" afterPath="$PROJECT_DIR$/src/com/cb2enterprises/mms/LogTag.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cb2enterprises/mms/ui/MessagingPreferenceActivity.java" afterPath="$PROJECT_DIR$/src/com/cb2enterprises/mms/ui/MessagingPreferenceActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cb2enterprises/mms/MmsConfig.java" afterPath="$PROJECT_DIR$/src/com/cb2enterprises/mms/MmsConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cb2enterprises/mms/util/RateController.java" afterPath="$PROJECT_DIR$/src/com/cb2enterprises/mms/util/RateController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/arrays.xml" afterPath="$PROJECT_DIR$/res/values/arrays.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/xml/preferences.xml" afterPath="$PROJECT_DIR$/res/xml/preferences.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/video_attachment_view.xml" afterPath="$PROJECT_DIR$/res/layout/video_attachment_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/widget.xml" afterPath="$PROJECT_DIR$/res/layout/widget.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Mms.iws" />
@@ -279,7 +52,7 @@
     <file path="/Contact.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373731585370" ignored="false" />
     <file path="/PduParser.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373073732896" ignored="false" />
     <file path="/AbstractCache.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373074092039" ignored="false" />
-    <file path="/strings.xml" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373729875277" ignored="false" />
+    <file path="/strings.xml" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373740966920" ignored="false" />
     <file path="/Downloads.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373074538778" ignored="false" />
     <file path="/DrmConvertSession.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373074584640" ignored="false" />
     <file path="/PduPersister.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373074623130" ignored="false" />
@@ -303,7 +76,7 @@
     <file path="/PushReceiver.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373127904719" ignored="false" />
     <file path="/PduLoaderManager.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373128526543" ignored="false" />
     <file path="/DownloadManager.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373732104015" ignored="false" />
-    <file path="/MmsConfig.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373129146137" ignored="false" />
+    <file path="/MmsConfig.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373741064421" ignored="false" />
     <file path="/SlideView.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373734811884" ignored="false" />
     <file path="/SmsStorageMonitor.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373130261127" ignored="false" />
     <file path="/AudioAttachmentView.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373130460439" ignored="false" />
@@ -386,22 +159,6 @@
     <file path="$PROJECT_DIR$/src/com/cb2enterprises/mms/transaction/MessageStatusService.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373731259073" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/cb2enterprises/mms/transaction/SmsReceiver.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373731259073" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/cb2enterprises/mms/transaction/Observer.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373731259074" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/cb2enterprises/mms/util/ItemLoadedCallback.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373731259078" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/cb2enterprises/mms/util/PduLoaderManager.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373731259079" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/cb2enterprises/mms/util/RateController.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373731259079" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/cb2enterprises/mms/util/PhoneNumberFormatter.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373731259079" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/cb2enterprises/mms/util/SendingProgressTokenManager.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373731259080" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/cb2enterprises/mms/util/SimpleCache.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373731259080" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/cb2enterprises/mms/util/ImageCacheService.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373731259080" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/cb2enterprises/mms/util/BackgroundLoaderManager.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373731259081" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/cb2enterprises/mms/util/CacheManager.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373731259081" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/cb2enterprises/mms/util/DraftCache.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373731259082" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/cb2enterprises/mms/util/ItemLoadedFuture.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373731259082" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/cb2enterprises/mms/util/BlobCache.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373731259082" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/cb2enterprises/mms/util/NullItemLoadedFuture.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373731259082" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/cb2enterprises/mms/util/SmileyParser.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373731259083" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/cb2enterprises/mms/util/ThumbnailManager.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373731259083" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/cb2enterprises/mms/util/Recycler.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373731259083" ignored="false" />
     <file path="/ContactList.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373731625916" ignored="false" />
     <file path="/RecipientIdCache.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373731754721" ignored="false" />
     <file path="/WorkingMessage.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373731382363" ignored="false" />
@@ -415,7 +172,7 @@
     <file path="/DeliveryReportListItem.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373732367876" ignored="false" />
     <file path="/NoConfirmationSendService.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373732374588" ignored="false" />
     <file path="/SmsSingleRecipientSender.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373732396535" ignored="false" />
-    <file path="/LogTag.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373732461016" ignored="false" />
+    <file path="/LogTag.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373739624751" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373735130082" ignored="false" />
     <file path="/MmsLaunchPerformance.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373733472923" ignored="false" />
     <file path="/AutoReplyActivity.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373733597195" ignored="false" />
@@ -433,12 +190,15 @@
     <file path="/MmsWidgetProvider.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373734640628" ignored="false" />
     <file path="/SlideEditorActivity.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373734648194" ignored="false" />
     <file path="/RetryScheduler.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373734666733" ignored="false" />
-    <file path="/MessagingPreferenceActivity.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373734675581" ignored="false" />
+    <file path="/MessagingPreferenceActivity.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373740428745" ignored="false" />
     <file path="/SmsRejectedReceiver.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373734710409" ignored="false" />
     <file path="/RecipientEditTextView.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373734720875" ignored="false" />
     <file path="/ManageSimMessages.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373734733006" ignored="false" />
     <file path="/SimFullReceiver.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373734769062" ignored="false" />
     <file path="/SlideshowActivity.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373734780634" ignored="false" />
+    <file path="/preferences.xml" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373740799701" ignored="false" />
+    <file path="/arrays.xml" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373740225098" ignored="false" />
+    <file path="/RateController.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373741290787" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -519,7 +279,37 @@
     <favorites_list name="Mms" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="MessagingPreferenceActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cb2enterprises/mms/ui/MessagingPreferenceActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="183" column="97" selection-start="8500" selection-end="8551" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MmsApp.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cb2enterprises/mms/MmsApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="13" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RateController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/cb2enterprises/mms/util/RateController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -537,13 +327,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/layout/audio_attachment_view.xml" />
-        <option value="$PROJECT_DIR$/res/layout/compose_message_activity.xml" />
-        <option value="$PROJECT_DIR$/res/layout/conversation_list_item.xml" />
-        <option value="$PROJECT_DIR$/res/layout/delivery_report_list_item.xml" />
-        <option value="$PROJECT_DIR$/res/layout/edit_slide_activity.xml" />
-        <option value="$PROJECT_DIR$/res/layout/image_attachment_view.xml" />
         <option value="$PROJECT_DIR$/res/layout/message_list_item_recv.xml" />
         <option value="$PROJECT_DIR$/res/layout/message_list_item_send.xml" />
         <option value="$PROJECT_DIR$/res/layout/recipients_editor.xml" />
@@ -553,6 +336,13 @@
         <option value="$PROJECT_DIR$/res/layout/slideshow_edit_item.xml" />
         <option value="$PROJECT_DIR$/res/layout/video_attachment_view.xml" />
         <option value="$PROJECT_DIR$/src/com/cb2enterprises/mms/ui/ConversationListItem.java" />
+        <option value="$PROJECT_DIR$/src/com/cb2enterprises/mms/LogTag.java" />
+        <option value="$PROJECT_DIR$/res/values/arrays.xml" />
+        <option value="$PROJECT_DIR$/src/com/cb2enterprises/mms/ui/MessagingPreferenceActivity.java" />
+        <option value="$PROJECT_DIR$/res/xml/preferences.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/cb2enterprises/mms/MmsConfig.java" />
+        <option value="$PROJECT_DIR$/src/com/cb2enterprises/mms/util/RateController.java" />
       </list>
     </option>
   </component>
@@ -656,57 +446,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="encryptext" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="encryptext" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout-finger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="encryptext" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-ldpi" />
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -918,15 +658,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.60134006" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6360601" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.63484085" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39865997" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39865997" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5711893" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -936,7 +676,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24318182" sideWeight="0.60134006" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24318182" sideWeight="0.42881072" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943925" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1012,96 +752,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/mms_chips_recipient_dropdown_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="0" selection-start="3152" selection-end="3152" vertical-scroll-proportion="-1.56">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/recipients_editor.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="28" selection-start="1313" selection-end="1313" vertical-scroll-proportion="-3.86">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/search_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1636" selection-end="1636" vertical-scroll-proportion="-4.28">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/slideshow.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="28" selection-start="977" selection-end="977" vertical-scroll-proportion="-2.92">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/slideshow_attachment_view.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="21" selection-start="3576" selection-end="3576" vertical-scroll-proportion="-2.72">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/slideshow_edit_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="21" selection-start="1884" selection-end="1884" vertical-scroll-proportion="-3.06">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/video_attachment_view.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="21" selection-start="2870" selection-end="2870" vertical-scroll-proportion="-3.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/widget.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="0" selection-start="2929" selection-end="2929" vertical-scroll-proportion="-0.34">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-finger/recipient_filter_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-17/android/view/LayoutInflater.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1153,6 +803,73 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="851" selection-end="851" vertical-scroll-proportion="0.56666666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cb2enterprises/mms/ui/ConversationList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="267" column="74" selection-start="11273" selection-end="11273" vertical-scroll-proportion="0.796875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cb2enterprises/mms/LogTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="25" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.3342246">
+          <folding>
+            <element signature="e#0#4870#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/arrays.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="4" selection-start="4209" selection-end="4209" vertical-scroll-proportion="0.8131868">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="335" column="61" selection-start="22400" selection-end="22400" vertical-scroll-proportion="0.8611632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xml/preferences.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="31" selection-start="5544" selection-end="5544" vertical-scroll-proportion="0.62637365">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cb2enterprises/mms/MmsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="25" selection-start="708" selection-end="708" vertical-scroll-proportion="0.17863397">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cb2enterprises/mms/MmsApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cb2enterprises/mms/ui/MessagingPreferenceActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="97" selection-start="8500" selection-end="8551" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cb2enterprises/mms/util/RateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

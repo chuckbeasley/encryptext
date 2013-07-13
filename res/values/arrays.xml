@@ -76,4 +76,18 @@
     <string-array name="empty_subject_strings">
         <item>no subject</item>
     </string-array>
+
+    <string-array name="rate_limit">
+        <item>100</item>
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+    </string-array>
+
+    <string-array name="rate_limit_values">
+        <item>100</item>
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+    </string-array>
 </resources>

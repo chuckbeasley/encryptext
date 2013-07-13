@@ -26,7 +26,7 @@ import android.util.Log;
 import com.cb2enterprises.mms.data.Contact;
 import com.cb2enterprises.mms.data.Conversation;
 import com.cb2enterprises.mms.data.RecipientIdCache;
-import com.android.mms.R;
+import com.cb2enterprises.mms.R;
 
 public class LogTag {
     public static final String TAG = "Mms";
