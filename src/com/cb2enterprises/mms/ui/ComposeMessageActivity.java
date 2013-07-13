@@ -129,7 +129,6 @@ import com.cb2enterprises.mms.data.Conversation;
 import com.cb2enterprises.mms.data.Conversation.ConversationQueryHandler;
 import com.cb2enterprises.mms.data.WorkingMessage;
 import com.cb2enterprises.mms.data.WorkingMessage.MessageStatusListener;
-import com.cb2enterprises.mms.drm.DrmUtils;
 import com.cb2enterprises.mms.model.SlideModel;
 import com.cb2enterprises.mms.model.SlideshowModel;
 import com.cb2enterprises.mms.transaction.MessagingNotification;
@@ -1404,7 +1403,7 @@ public class ComposeMessageActivity extends Activity
             }
 
             if (ContentType.isImageType(type) || ContentType.isVideoType(type) ||
-                    ContentType.isAudioType(type) || DrmUtils.isDrmType(type)) {
+                    ContentType.isAudioType(type)) {
                 result = true;
                 break;
             }
@@ -1434,11 +1433,6 @@ public class ComposeMessageActivity extends Activity
             PduPart part = body.getPart(i);
             String type = new String(part.getContentType());
 
-            if (DrmUtils.isDrmType(type)) {
-                // All parts (but there's probably only a single one) have to be successful
-                // for a valid result.
-                result &= copyPart(part, Long.toHexString(msgId));
-            }
         }
         return result;
     }
@@ -1552,11 +1546,6 @@ public class ComposeMessageActivity extends Activity
     private boolean copyPart(PduPart part, String fallback) {
         Uri uri = part.getDataUri();
         String type = new String(part.getContentType());
-        boolean isDrm = DrmUtils.isDrmType(type);
-        if (isDrm) {
-            type = MmsApp.getApplication().getDrmManagerClient()
-                    .getOriginalMimeType(part.getDataUri());
-        }
         if (!ContentType.isImageType(type) && !ContentType.isVideoType(type) &&
                 !ContentType.isAudioType(type)) {
             return true;    // we only save pictures, videos, and sounds. Skip the text parts,
@@ -1605,9 +1594,6 @@ public class ComposeMessageActivity extends Activity
                 } else {
                     extension = fileName.substring(index + 1, fileName.length());
                     fileName = fileName.substring(0, index);
-                }
-                if (isDrm) {
-                    extension += DrmUtils.getConvertExtension(type);
                 }
                 File file = getUniqueDestination(dir + fileName, extension);
 
