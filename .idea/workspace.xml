@@ -25,94 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f978b92d-fb21-469d-bef2-b0dffeca2933" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mms.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/SmsAutoReply/SmsAutoReply.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apptests/src/com/android/mms/mms.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/tests.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/util/AddressUtils.java" afterPath="$PROJECT_DIR$/src/com/android/mms/util/AddressUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/AudioAttachmentView.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/AudioAttachmentView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/model/AudioModel.java" afterPath="$PROJECT_DIR$/src/com/android/mms/model/AudioModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/BasicSlideEditorView.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/BasicSlideEditorView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/model/CarrierContentRestriction.java" afterPath="$PROJECT_DIR$/src/com/android/mms/model/CarrierContentRestriction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/ChipsRecipientAdapter.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/ChipsRecipientAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/ClassZeroActivity.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/ClassZeroActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/ComposeMessageActivity.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/ComposeMessageActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/data/Contact.java" afterPath="$PROJECT_DIR$/src/com/android/mms/data/Contact.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/data/Conversation.java" afterPath="$PROJECT_DIR$/src/com/android/mms/data/Conversation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/ConversationList.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/ConversationList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/ConversationListAdapter.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/ConversationListAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/ConversationListItem.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/ConversationListItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/DeliveryReportActivity.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/DeliveryReportActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/util/DownloadManager.java" afterPath="$PROJECT_DIR$/src/com/android/mms/util/DownloadManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/util/DraftCache.java" afterPath="$PROJECT_DIR$/src/com/android/mms/util/DraftCache.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/w3c/dom/events/Event.java" afterPath="$PROJECT_DIR$/src/org/w3c/dom/events/Event.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/model/ImageModel.java" afterPath="$PROJECT_DIR$/src/com/android/mms/model/ImageModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/ManageSimMessages.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/ManageSimMessages.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/model/MediaModel.java" afterPath="$PROJECT_DIR$/src/com/android/mms/model/MediaModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/model/MediaModelFactory.java" afterPath="$PROJECT_DIR$/src/com/android/mms/model/MediaModelFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/MessageItem.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/MessageItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/MessageListAdapter.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/MessageListAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/MessageListItem.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/MessageListItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/transaction/MessageSender.java" afterPath="$PROJECT_DIR$/src/com/android/mms/transaction/MessageSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/transaction/MessageStatusService.java" afterPath="$PROJECT_DIR$/src/com/android/mms/transaction/MessageStatusService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/MessageUtils.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/MessageUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/transaction/MessagingNotification.java" afterPath="$PROJECT_DIR$/src/com/android/mms/transaction/MessagingNotification.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/MmsApp.java" afterPath="$PROJECT_DIR$/src/com/android/mms/MmsApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/MmsConfig.java" afterPath="$PROJECT_DIR$/src/com/android/mms/MmsConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/transaction/MmsMessageSender.java" afterPath="$PROJECT_DIR$/src/com/android/mms/transaction/MmsMessageSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/transaction/MmsSystemEventReceiver.java" afterPath="$PROJECT_DIR$/src/com/android/mms/transaction/MmsSystemEventReceiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/widget/MmsWidgetService.java" afterPath="$PROJECT_DIR$/src/com/android/mms/widget/MmsWidgetService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/transaction/NotificationTransaction.java" afterPath="$PROJECT_DIR$/src/com/android/mms/transaction/NotificationTransaction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/util/PduLoaderManager.java" afterPath="$PROJECT_DIR$/src/com/android/mms/util/PduLoaderManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/util/PhoneNumberFormatter.java" afterPath="$PROJECT_DIR$/src/com/android/mms/util/PhoneNumberFormatter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/transaction/PushReceiver.java" afterPath="$PROJECT_DIR$/src/com/android/mms/transaction/PushReceiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/util/RateController.java" afterPath="$PROJECT_DIR$/src/com/android/mms/util/RateController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/transaction/ReadRecTransaction.java" afterPath="$PROJECT_DIR$/src/com/android/mms/transaction/ReadRecTransaction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/data/RecipientIdCache.java" afterPath="$PROJECT_DIR$/src/com/android/mms/data/RecipientIdCache.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/RecipientsAdapter.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/RecipientsAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/RecipientsEditor.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/RecipientsEditor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/util/Recycler.java" afterPath="$PROJECT_DIR$/src/com/android/mms/util/Recycler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/model/RegionMediaModel.java" afterPath="$PROJECT_DIR$/src/com/android/mms/model/RegionMediaModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/transaction/RetrieveTransaction.java" afterPath="$PROJECT_DIR$/src/com/android/mms/transaction/RetrieveTransaction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/transaction/RetryScheduler.java" afterPath="$PROJECT_DIR$/src/com/android/mms/transaction/RetryScheduler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/SearchActivity.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/SearchActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/transaction/SendTransaction.java" afterPath="$PROJECT_DIR$/src/com/android/mms/transaction/SendTransaction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/transaction/SimFullReceiver.java" afterPath="$PROJECT_DIR$/src/com/android/mms/transaction/SimFullReceiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/SlideEditorActivity.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/SlideEditorActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/SlideListItemView.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/SlideListItemView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/model/SlideModel.java" afterPath="$PROJECT_DIR$/src/com/android/mms/model/SlideModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/SlideView.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/SlideView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/SlideshowActivity.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/SlideshowActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/SlideshowAttachmentView.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/SlideshowAttachmentView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/SlideshowEditActivity.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/SlideshowEditActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/SlideshowEditor.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/SlideshowEditor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/model/SlideshowModel.java" afterPath="$PROJECT_DIR$/src/com/android/mms/model/SlideshowModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/model/SmilHelper.java" afterPath="$PROJECT_DIR$/src/com/android/mms/model/SmilHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/dom/smil/parser/SmilXmlParser.java" afterPath="$PROJECT_DIR$/src/com/android/mms/dom/smil/parser/SmilXmlParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/transaction/SmsMessageSender.java" afterPath="$PROJECT_DIR$/src/com/android/mms/transaction/SmsMessageSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/transaction/SmsReceiver.java" afterPath="$PROJECT_DIR$/src/com/android/mms/transaction/SmsReceiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/transaction/SmsReceiverService.java" afterPath="$PROJECT_DIR$/src/com/android/mms/transaction/SmsReceiverService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/transaction/SmsRejectedReceiver.java" afterPath="$PROJECT_DIR$/src/com/android/mms/transaction/SmsRejectedReceiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/transaction/SmsSingleRecipientSender.java" afterPath="$PROJECT_DIR$/src/com/android/mms/transaction/SmsSingleRecipientSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/SmsStorageMonitor.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/SmsStorageMonitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/model/TextModel.java" afterPath="$PROJECT_DIR$/src/com/android/mms/model/TextModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/transaction/Transaction.java" afterPath="$PROJECT_DIR$/src/com/android/mms/transaction/Transaction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/transaction/TransactionBundle.java" afterPath="$PROJECT_DIR$/src/com/android/mms/transaction/TransactionBundle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/transaction/TransactionService.java" afterPath="$PROJECT_DIR$/src/com/android/mms/transaction/TransactionService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/transaction/TransactionSettings.java" afterPath="$PROJECT_DIR$/src/com/android/mms/transaction/TransactionSettings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/UriImage.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/UriImage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/VideoAttachmentView.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/VideoAttachmentView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/model/VideoModel.java" afterPath="$PROJECT_DIR$/src/com/android/mms/model/VideoModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/ui/WarnOfStorageLimitsActivity.java" afterPath="$PROJECT_DIR$/src/com/android/mms/ui/WarnOfStorageLimitsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/mms/data/WorkingMessage.java" afterPath="$PROJECT_DIR$/src/com/android/mms/data/WorkingMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/dimens.xml" afterPath="$PROJECT_DIR$/res/values/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Mms.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373213715929" ignored="false" />
+    <file path="/Dummy.txt" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373729561156" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/android.xsd" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373070073409" ignored="false" />
     <file path="/UriImage.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373072689836" ignored="false" />
     <file path="/SqliteWrapper.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373074312031" ignored="false" />
@@ -165,6 +82,7 @@
     <file path="/SlideListItemView.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373133946837" ignored="false" />
     <file path="/SlideshowAttachmentView.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373134046339" ignored="false" />
     <file path="/VideoAttachmentView.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373134081474" ignored="false" />
+    <file path="$PROJECT_DIR$/tests/gen/com/android/mms/tests/BuildConfig.java" changelist="f978b92d-fb21-469d-bef2-b0dffeca2933" time="1373729571785" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +97,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -216,6 +133,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -225,28 +143,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MmsMessageSender.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MmsMessageSender.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/android/mms/transaction/MmsMessageSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="13" selection-start="5389" selection-end="5389" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TransactionService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/android/mms/transaction/TransactionService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="668" column="13" selection-start="28381" selection-end="28381" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SendTransaction.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/android/mms/transaction/SendTransaction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="0" selection-start="3887" selection-end="3887" vertical-scroll-proportion="0.02977233">
+            <state line="126" column="13" selection-start="5389" selection-end="5389" vertical-scroll-proportion="0.029668411">
               <folding />
             </state>
           </provider>
@@ -321,8 +221,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -331,134 +229,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="transaction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cb2enterprises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cb2enterprises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -474,11 +248,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Android Application.Mms">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -513,19 +287,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -551,6 +312,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -654,7 +428,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -750,112 +524,86 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/android/mms/ui/Divot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/mms/ui/ClassZeroActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="246" column="13" selection-start="9071" selection-end="9071" vertical-scroll-proportion="0.86339754">
-          <folding />
-        </state>
+        <state line="246" column="13" selection-start="9071" selection-end="9071" vertical-scroll-proportion="0.86339754" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/mms/ui/ComposeMessageActivityNoLockScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="13" selection-start="831" selection-end="831" vertical-scroll-proportion="0.26795095">
-          <folding />
-        </state>
+        <state line="24" column="13" selection-start="831" selection-end="831" vertical-scroll-proportion="0.26795095" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/mms/ui/ConversationList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="404" column="13" selection-start="16767" selection-end="16767" vertical-scroll-proportion="0.02977233">
-          <folding />
-        </state>
+        <state line="404" column="13" selection-start="16767" selection-end="16767" vertical-scroll-proportion="0.02977233" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/mms/util/AddressUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="14" selection-start="1382" selection-end="1382" vertical-scroll-proportion="0.17863397">
-          <folding />
-        </state>
+        <state line="35" column="14" selection-start="1382" selection-end="1382" vertical-scroll-proportion="0.17863397" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/mms/util/CacheManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="886" selection-end="886" vertical-scroll-proportion="0.02977233">
-          <folding />
-        </state>
+        <state line="27" column="13" selection-start="886" selection-end="886" vertical-scroll-proportion="0.02977233" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/mms/util/DownloadManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="278" column="13" selection-start="10157" selection-end="10157" vertical-scroll-proportion="0.821366">
-          <folding />
-        </state>
+        <state line="278" column="13" selection-start="10157" selection-end="10157" vertical-scroll-proportion="0.821366" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/mms/util/PduLoaderManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="231" column="13" selection-start="8604" selection-end="8604" vertical-scroll-proportion="0.7022767">
-          <folding />
-        </state>
+        <state line="231" column="13" selection-start="8604" selection-end="8604" vertical-scroll-proportion="0.7022767" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/mms/ui/IconListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.26795095">
-          <folding />
-        </state>
+        <state line="34" column="13" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.26795095" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/mms/util/SmileyParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="13" selection-start="7996" selection-end="7996" vertical-scroll-proportion="0.9404553">
-          <folding />
-        </state>
+        <state line="200" column="13" selection-start="7996" selection-end="7996" vertical-scroll-proportion="0.9404553" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/mms/transaction/MessageSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="17" selection-start="771" selection-end="771" vertical-scroll-proportion="0.17863397">
-          <folding />
-        </state>
+        <state line="21" column="17" selection-start="771" selection-end="771" vertical-scroll-proportion="0.17863397" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/mms/transaction/MessageStatusReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="813" selection-end="813" vertical-scroll-proportion="0.17863397">
-          <folding />
-        </state>
+        <state line="23" column="13" selection-start="813" selection-end="813" vertical-scroll-proportion="0.17863397" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/mms/transaction/MessageStatusService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="13" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.2977233">
-          <folding />
-        </state>
+        <state line="37" column="13" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.2977233" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/mms/transaction/MmsMessageSender.java">
+    <entry file="file://$PROJECT_DIR$/src/com/android/mms/transaction/SendTransaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="13" selection-start="5389" selection-end="5389" vertical-scroll-proportion="0.0">
+        <state line="126" column="83" selection-start="5000" selection-end="5000" vertical-scroll-proportion="0.7120419">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/mms/transaction/TransactionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="668" column="13" selection-start="28381" selection-end="28381" vertical-scroll-proportion="0.0">
+        <state line="668" column="13" selection-start="28381" selection-end="28381" vertical-scroll-proportion="0.029668411">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/mms/transaction/SendTransaction.java">
+    <entry file="file://$PROJECT_DIR$/src/com/android/mms/transaction/MmsMessageSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="0" selection-start="3887" selection-end="3887" vertical-scroll-proportion="0.02977233">
+        <state line="126" column="13" selection-start="5389" selection-end="5389" vertical-scroll-proportion="0.029668411">
           <folding />
         </state>
       </provider>
