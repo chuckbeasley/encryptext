@@ -28,96 +28,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f978b92d-fb21-469d-bef2-b0dffeca2933" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\apptests\Android.mk" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\apptests\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\apptests\res\layout\sms_send_intent_test.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\apptests\res\values\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\apptests\src\com\cb2enterprises\mms\mms.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\apptests\src\com\cb2enterprises\mms\tests\SmsSendIntentTestActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\src\com\cb2enterprises\mms\drm\DrmUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\Android.mk" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\Android.mk" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\SmsAutoReply.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\gen\com\cb2enterprises\smsautoreply\BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\gen\com\cb2enterprises\smsautoreply\Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\gen\com\cb2enterprises\smsautoreply\R.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\drawable\icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\layout\main.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-af\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-am\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-ar\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-be\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-bg\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-ca\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-cs\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-da\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-de\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-el\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-en-rGB\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-es-rUS\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-es\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-et\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-fa\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-fi\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-fr\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-hi\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-hr\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-hu\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-in\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-it\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-iw\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-ja\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-ko\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-lt\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-lv\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-ms\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-nb\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-nl\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-pl\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-pt-rPT\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-pt\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-ro\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-ru\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-sk\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-sl\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-sr\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-sv\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-sw\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-th\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-tl\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-tr\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-uk\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-vi\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-zh-rCN\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-zh-rTW\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values-zu\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\res\values\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\SmsAutoReply\src\com\cb2enterprises\smsautoreply\AutoReplyActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\gen\com\cb2enterprises\mms\tests\BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\gen\com\cb2enterprises\mms\tests\Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\gen\com\cb2enterprises\mms\tests\R.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\cb2enterprises\mms\InterceptSendSms.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\cb2enterprises\mms\MmsLaunchPerformance.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\cb2enterprises\mms\MmsStability.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\cb2enterprises\mms\RecyclerTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\cb2enterprises\mms\SmsTestRunner.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\cb2enterprises\mms\ui\ComposeMessageActivityTests.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\cb2enterprises\mms\ui\ConversationListTests.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\cb2enterprises\mms\ui\LongThreadTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\cb2enterprises\mms\ui\MultiPartSmsTests.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\cb2enterprises\mms\ui\SmsStressTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\cb2enterprises\mms\ui\SmsTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\cb2enterprises\mms\util\HttpUtilsTests.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\cb2enterprises\mms\util\PhoneNumberComparisonTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\cb2enterprises\mms\util\SendIntentTests.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\cb2enterprises\mms\util\SmileyParserUnitTests.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\cb2enterprises\mms\util\SmsReceiverServiceTests.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\cb2enterprises\mms\util\VerifyRecipientUnitTests.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chuck\Documents\GitHub\encryptext\tests\src\com\cb2enterprises\mms\util\VideoCaptureTests.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cb2enterprises/mms/ui/ComposeMessageActivity.java" afterPath="$PROJECT_DIR$/src/com/cb2enterprises/mms/ui/ComposeMessageActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/tests.iml" afterPath="$PROJECT_DIR$/tests/tests.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Mms.iws" />
@@ -382,7 +292,7 @@
       <file leaf-file-name="proguard.flags" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/proguard.flags">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="23" selection-start="60" selection-end="60" vertical-scroll-proportion="0.09018568">
+            <state line="2" column="23" selection-start="60" selection-end="60" vertical-scroll-proportion="0.05954466">
               <folding />
             </state>
           </provider>
@@ -695,7 +605,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5711893" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32495812" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32495812" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5711893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -879,7 +789,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/proguard.flags">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="23" selection-start="60" selection-end="60" vertical-scroll-proportion="0.09018568">
+        <state line="2" column="23" selection-start="60" selection-end="60" vertical-scroll-proportion="0.05954466">
           <folding />
         </state>
       </provider>
