@@ -40,7 +40,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.ListView;
 
-import com.android.mms.R;
+import com.cb2enterprises.mms.R;
 import cb2enterprises.com.google.android.mms.pdu.PduHeaders;
 
 /**

@@ -29,7 +29,7 @@ import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Button;
 
-import com.android.mms.R;
+import com.cb2enterprises.mms.R;
 import com.cb2enterprises.mms.util.RateController;
 
 public class ConfirmRateLimitActivity extends Activity {

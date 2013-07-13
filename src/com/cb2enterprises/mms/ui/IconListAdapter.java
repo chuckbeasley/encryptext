@@ -27,7 +27,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.android.mms.R;
+import com.cb2enterprises.mms.R;
 
 /**
  * An adapter to store icons.

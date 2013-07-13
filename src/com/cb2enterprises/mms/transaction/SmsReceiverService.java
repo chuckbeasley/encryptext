@@ -52,7 +52,7 @@ import android.widget.Toast;
 
 import cb2enterprises.com.android.internal.telephony.TelephonyIntents;
 import com.cb2enterprises.mms.LogTag;
-import com.android.mms.R;
+import com.cb2enterprises.mms.R;
 import com.cb2enterprises.mms.data.Contact;
 import com.cb2enterprises.mms.data.Conversation;
 import com.cb2enterprises.mms.ui.ClassZeroActivity;

@@ -108,7 +108,6 @@ public class MessageListItem extends LinearLayout implements
     private int mPosition;      // for debugging
     private ImageLoadedCallback mImageLoadedCallback;
     private boolean mMultiRecipients;
-    private Context mContext;
 
     public MessageListItem(Context context) {
         super(context);
@@ -117,20 +116,18 @@ public class MessageListItem extends LinearLayout implements
         if (sDefaultContactImage == null) {
             sDefaultContactImage = context.getResources().getDrawable(R.drawable.ic_contact_picture);
         }
-        mContext = context;
     }
 
     public MessageListItem(Context context, AttributeSet attrs) {
         super(context, attrs);
 
-        int color = mContext.getResources().getColor(R.color.timestamp_color);
+        int color = context.getResources().getColor(R.color.timestamp_color);
         mColorSpan = new ForegroundColorSpan(color);
         //mDefaultCountryIso = MmsApp.getApplication().getCurrentCountryIso();
 
         if (sDefaultContactImage == null) {
             sDefaultContactImage = context.getResources().getDrawable(R.drawable.ic_contact_picture);
         }
-        mContext = context;
     }
 
     @Override
@@ -203,9 +200,9 @@ public class MessageListItem extends LinearLayout implements
     private void bindNotifInd() {
         showMmsView(false);
 
-        String msgSizeText = mContext.getString(R.string.message_size_label)
+        String msgSizeText = getContext().getString(R.string.message_size_label)
                                 + String.valueOf((mMessageItem.mMessageSize + 1023) / 1024)
-                                + mContext.getString(R.string.kilobyte);
+                                + getContext().getString(R.string.kilobyte);
 
         mBodyTextView.setText(formatMessage(mMessageItem, null,
                                             mMessageItem.mSubject,
@@ -245,11 +242,11 @@ public class MessageListItem extends LinearLayout implements
                     public void onClick(View v) {
                         mDownloadingLabel.setVisibility(View.VISIBLE);
                         mDownloadButton.setVisibility(View.GONE);
-                        Intent intent = new Intent(mContext, TransactionService.class);
+                        Intent intent = new Intent(getContext(), TransactionService.class);
                         intent.putExtra(TransactionBundle.URI, mMessageItem.mMessageUri.toString());
                         intent.putExtra(TransactionBundle.TRANSACTION_TYPE,
                                 Transaction.RETRIEVE_TRANSACTION);
-                        mContext.startService(intent);
+                        getContext().startService(intent);
 
                         DownloadManager.getInstance().markState(
                                     mMessageItem.mMessageUri, DownloadManager.STATE_PRE_DOWNLOADING);
@@ -271,7 +268,7 @@ public class MessageListItem extends LinearLayout implements
             return timestamp;
         }
         // This is a group conversation, show the sender's name on the same line as the timestamp.
-        return mContext.getString(R.string.message_timestamp_format, mMessageItem.mContact,
+        return getContext().getString(R.string.message_timestamp_format, mMessageItem.mContact,
                 timestamp);
     }
 
@@ -285,7 +282,7 @@ public class MessageListItem extends LinearLayout implements
         Drawable avatarDrawable;
         if (isSelf || !TextUtils.isEmpty(addr)) {
             Contact contact = isSelf ? Contact.getMe(false) : Contact.get(addr, false);
-            avatarDrawable = contact.getAvatar(mContext, sDefaultContactImage);
+            avatarDrawable = contact.getAvatar(getContext(), sDefaultContactImage);
 
             if (isSelf) {
                 mAvatar.assignContactUri(Profile.CONTENT_URI);
@@ -366,7 +363,7 @@ public class MessageListItem extends LinearLayout implements
         // string in place of the timestamp.
         if (!sameItem || haveLoadedPdu) {
             mDateView.setText(buildTimestampLine(mMessageItem.isSending() ?
-                    mContext.getResources().getString(R.string.sending_message) :
+                    getContext().getResources().getString(R.string.sending_message) :
                         mMessageItem.mTimestamp));
         }
         if (mMessageItem.isSms()) {
@@ -407,7 +404,7 @@ public class MessageListItem extends LinearLayout implements
             } else {
                 if (mPresenter == null) {
                     mPresenter = PresenterFactory.getPresenter(
-                            "MmsThumbnailPresenter", mContext,
+                            "MmsThumbnailPresenter", getContext(),
                             this, mMessageItem.mSlideshow);
                 } else {
                     mPresenter.setModel(mMessageItem.mSlideshow);
@@ -526,7 +523,7 @@ public class MessageListItem extends LinearLayout implements
     };
 
     TextAppearanceSpan mTextSmallSpan =
-        new TextAppearanceSpan(mContext, android.R.style.TextAppearance_Small);
+        new TextAppearanceSpan(getContext(), android.R.style.TextAppearance_Small);
 
     ForegroundColorSpan mColorSpan = null;  // set in ctor
 
@@ -542,7 +539,7 @@ public class MessageListItem extends LinearLayout implements
             // Can't use the normal getString() with extra arguments for string replacement
             // because it doesn't preserve the SpannableText returned by addSmileySpans.
             // We have to manually replace the %s with our text.
-            buf.append(TextUtils.replace(mContext.getResources().getString(R.string.inline_subject),
+            buf.append(TextUtils.replace(getContext().getResources().getString(R.string.inline_subject),
                     new String[] { "%s" }, new CharSequence[] { smilizedSubject }));
         }
 
@@ -634,7 +631,7 @@ public class MessageListItem extends LinearLayout implements
             spans[0].onClick(mBodyTextView);
         } else {
             ArrayAdapter<URLSpan> adapter =
-                new ArrayAdapter<URLSpan>(mContext, android.R.layout.select_dialog_item, spans) {
+                new ArrayAdapter<URLSpan>(getContext(), android.R.layout.select_dialog_item, spans) {
                 @Override
                 public View getView(int position, View convertView, ViewGroup parent) {
                     View v = super.getView(position, convertView, parent);
@@ -643,7 +640,7 @@ public class MessageListItem extends LinearLayout implements
                         String url = span.getURL();
                         Uri uri = Uri.parse(url);
                         TextView tv = (TextView) v;
-                        Drawable d = mContext.getPackageManager().getActivityIcon(
+                        Drawable d = getContext().getPackageManager().getActivityIcon(
                                 new Intent(Intent.ACTION_VIEW, uri));
                         if (d != null) {
                             d.setBounds(0, 0, d.getIntrinsicHeight(), d.getIntrinsicHeight());
@@ -669,7 +666,7 @@ public class MessageListItem extends LinearLayout implements
                 }
             };
 
-            AlertDialog.Builder b = new AlertDialog.Builder(mContext);
+            AlertDialog.Builder b = new AlertDialog.Builder(getContext());
 
             DialogInterface.OnClickListener click = new DialogInterface.OnClickListener() {
                 @Override

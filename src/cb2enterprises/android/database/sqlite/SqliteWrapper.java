@@ -26,7 +26,7 @@ import android.database.sqlite.SQLiteException;
 import android.net.Uri;
 import android.util.Log;
 import android.widget.Toast;
-import com.android.mms.R;
+import com.cb2enterprises.mms.R;
 
 public final class SqliteWrapper {
     private static final String TAG = "SqliteWrapper";

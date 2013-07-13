@@ -231,7 +231,7 @@
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.android.mms.transaction.MESSAGE_SENT" />
+                <action android:name="com.cb2enterprises.mms.transaction.MESSAGE_SENT" />
                 <!-- TODO Do a better mms match here. -->
                 <data android:scheme="content" />
             </intent-filter>
@@ -242,7 +242,7 @@
 
         <receiver android:name="com.cb2enterprises.mms.transaction.MessageStatusReceiver">
             <intent-filter>
-                <action android:name="com.android.mms.transaction.MessageStatusReceiver.MESSAGE_STATUS_RECEIVED" />
+                <action android:name="com.cb2enterprises.mms.transaction.MessageStatusReceiver.MESSAGE_STATUS_RECEIVED" />
             </intent-filter>
         </receiver>
 
@@ -263,7 +263,7 @@
         <activity android:name="com.cb2enterprises.mms.ui.ConfirmRateLimitActivity"
                   android:theme="@android:style/Theme.Dialog">
             <intent-filter>
-                <action android:name="com.android.mms.RATE_LIMIT_SURPASSED" />
+                <action android:name="com.cb2enterprises.mms.RATE_LIMIT_SURPASSED" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -300,7 +300,7 @@
                  android:permission="android.permission.SEND_SMS_NO_CONFIRMATION"
                  android:exported="true" >
             <intent-filter>
-                <action android:name="com.android.mms.intent.action.SENDTO_NO_CONFIRMATION" />
+                <action android:name="com.cb2enterprises.mms.intent.action.SENDTO_NO_CONFIRMATION" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:scheme="sms" />
                 <data android:scheme="smsto" />
@@ -314,7 +314,7 @@
 
         <activity android:name="com.cb2enterprises.mms.ui.MiniPreferenceActivity" >
             <intent-filter>
-                <action android:name="com.android.mms.intent.action.MESSAGING_APP_NOTIFICATIONS" />
+                <action android:name="com.cb2enterprises.mms.intent.action.MESSAGING_APP_NOTIFICATIONS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -330,7 +330,7 @@
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.android.mms.intent.action.ACTION_NOTIFY_DATASET_CHANGED" />
+                <action android:name="com.cb2enterprises.mms.intent.action.ACTION_NOTIFY_DATASET_CHANGED" />
             </intent-filter>
             <meta-data android:name="android.appwidget.provider"
                        android:resource="@xml/widget_info" />

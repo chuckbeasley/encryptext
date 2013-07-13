@@ -36,7 +36,7 @@ import android.widget.Toast;
 
 import cb2enterprises.com.android.internal.telephony.TelephonyIntents;
 import cb2enterprises.com.android.internal.telephony.TelephonyProperties;
-import com.android.mms.R;
+import com.cb2enterprises.mms.R;
 import com.cb2enterprises.mms.data.Contact;
 import com.cb2enterprises.mms.ui.MessagingPreferenceActivity;
 import cb2enterprises.com.google.android.mms.MmsException;

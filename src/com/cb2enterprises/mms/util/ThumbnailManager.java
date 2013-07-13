@@ -34,7 +34,7 @@ import android.net.Uri;
 import android.util.Log;
 
 import com.cb2enterprises.mms.LogTag;
-import com.android.mms.R;
+import com.cb2enterprises.mms.R;
 import com.cb2enterprises.mms.TempFileProvider;
 import com.cb2enterprises.mms.ui.UriImage;
 import com.cb2enterprises.mms.util.ImageCacheService.ImageData;

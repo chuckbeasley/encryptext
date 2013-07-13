@@ -30,7 +30,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import cb2enterprises.com.android.ex.chips.Queries.Query;
-import com.android.mms.R;
+import com.cb2enterprises.mms.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

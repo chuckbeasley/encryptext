@@ -38,7 +38,7 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.Window;
 
-import com.android.mms.R;
+import com.cb2enterprises.mms.R;
 import com.cb2enterprises.mms.transaction.MessagingNotification;
 
 /**

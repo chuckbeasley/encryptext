@@ -19,7 +19,7 @@ package com.cb2enterprises.mms.ui;
 import android.content.Context;
 
 import cb2enterprises.com.android.ex.chips.BaseRecipientAdapter;
-import com.android.mms.R;
+import com.cb2enterprises.mms.R;
 
 public class ChipsRecipientAdapter extends BaseRecipientAdapter {
     private static final int DEFAULT_PREFERRED_MAX_RESULT_COUNT = 10;

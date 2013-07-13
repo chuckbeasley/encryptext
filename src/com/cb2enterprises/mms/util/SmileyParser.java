@@ -25,7 +25,7 @@ import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.style.ImageSpan;
 
-import com.android.mms.R;
+import com.cb2enterprises.mms.R;
 
 /**
  * A class for annotating a CharSequence with spans to convert textual emoticons

@@ -30,7 +30,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.android.mms.R;
+import com.cb2enterprises.mms.R;
 
 /**
  * This class provides an embedded editor/viewer of slide-show attachment.

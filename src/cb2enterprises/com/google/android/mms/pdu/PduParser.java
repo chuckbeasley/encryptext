@@ -17,7 +17,7 @@
 
 package cb2enterprises.com.google.android.mms.pdu;
 
-import com.android.mms.R;
+import com.cb2enterprises.mms.R;
 import cb2enterprises.com.google.android.mms.ContentType;
 import cb2enterprises.com.google.android.mms.InvalidHeaderValueException;
 import cb2enterprises.com.google.android.mms.pdu.EncodedStringValue;

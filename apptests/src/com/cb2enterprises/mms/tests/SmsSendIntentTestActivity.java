@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.mms.apptests;
+package com.cb2enterprises.mms.apptests;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -29,7 +29,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.android.mms.apptests.R;
+import com.cb2enterprises.mms.apptests.R;
 
 // This is a manual test application for testing the Messaging app's ability to send Sms messages
 // without the user having to confirm or press a send button. This app uses the intent:
@@ -126,7 +126,7 @@ public class SmsSendIntentTestActivity extends Activity {
         }
 
         Uri uri = Uri.fromParts("smsto", recipient, null);
-        Intent intent = new Intent("com.android.mms.intent.action.SENDTO_NO_CONFIRMATION", uri);
+        Intent intent = new Intent("com.cb2enterprises.mms.intent.action.SENDTO_NO_CONFIRMATION", uri);
         intent.putExtra(Intent.EXTRA_TEXT, message);
         intent.putExtra("exit_on_sent", true);
         intent.putExtra("showUI", true);
@@ -156,7 +156,7 @@ public class SmsSendIntentTestActivity extends Activity {
         }
         Uri uri = Uri.fromParts("smsto", recipient, null);
         for (int i = 0; i < count; i++) {
-            Intent intent = new Intent("com.android.mms.intent.action.SENDTO_NO_CONFIRMATION", uri);
+            Intent intent = new Intent("com.cb2enterprises.mms.intent.action.SENDTO_NO_CONFIRMATION", uri);
             intent.putExtra(Intent.EXTRA_TEXT, message);
             startService(intent);
         }
@@ -189,7 +189,7 @@ public class SmsSendIntentTestActivity extends Activity {
         switch (item.getItemId()) {
             case NOTIFICATION_MENU:
                 Intent intent =
-                    new Intent("com.android.mms.intent.action.MESSAGING_APP_NOTIFICATIONS");
+                    new Intent("com.cb2enterprises.mms.intent.action.MESSAGING_APP_NOTIFICATIONS");
                 startActivity(intent);
                 break;
         }

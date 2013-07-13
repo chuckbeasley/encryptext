@@ -33,7 +33,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.android.mms.R;
+import com.cb2enterprises.mms.R;
 
 /**
  * A simplified view of slide in the slides list.

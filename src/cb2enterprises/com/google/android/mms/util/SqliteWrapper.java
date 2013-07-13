@@ -17,7 +17,7 @@
 
 package cb2enterprises.com.google.android.mms.util;
 
-import com.android.mms.R;
+import com.cb2enterprises.mms.R;
 import android.app.ActivityManager;
 import android.content.ContentResolver;
 import android.content.ContentValues;

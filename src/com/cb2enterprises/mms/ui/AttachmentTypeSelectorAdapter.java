@@ -23,7 +23,7 @@ import java.util.List;
 import android.content.Context;
 
 import com.cb2enterprises.mms.MmsConfig;
-import com.android.mms.R;
+import com.cb2enterprises.mms.R;
 
 /**
  * An adapter to store icons and strings for attachment type list.

@@ -44,7 +44,7 @@ import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.android.mms.R;
+import com.cb2enterprises.mms.R;
 
 /**
  * Various utilities for dealing with phone number strings.

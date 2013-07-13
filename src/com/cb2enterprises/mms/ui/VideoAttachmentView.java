@@ -29,7 +29,7 @@ import android.util.Log;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.android.mms.R;
+import com.cb2enterprises.mms.R;
 // TODO: remove dependency for SDK build
 
 /**

@@ -34,7 +34,7 @@ import android.util.Log;
 
 import com.cb2enterprises.mms.LogTag;
 import com.cb2enterprises.mms.MmsApp;
-import com.android.mms.R;
+import com.cb2enterprises.mms.R;
 import com.cb2enterprises.mms.ui.MessageUtils;
 
 public class Contact {
