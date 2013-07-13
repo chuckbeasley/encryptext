@@ -791,7 +791,7 @@ public class PhoneNumberUtils
      *  See Also TS 51.011 10.5.1 "dialing number/ssc string"
      *  and TS 11.11 "10.3.1 EF adn (Abbreviated dialing numbers)"
      *
-     * @param bytes the data buffer
+     * @param bytes the mms buffer
      * @param offset should point to the TOA (aka. TON/NPI) octet after the length byte
      * @param length is the number of bytes including TOA byte
      *                and must be at least 2
@@ -880,7 +880,7 @@ public class PhoneNumberUtils
 //                m = p.matcher(retString);
 //                if (m.matches()) {
 //                    // Starts with [#*] and only one other [#*]
-//                    // Assume the data after last [#*] is dialing
+//                    // Assume the mms after last [#*] is dialing
 //                    // number (i.e. group 4) such as *31#+11234567890.
 //                    // This also includes the odd ball *21#+
 //                    ret = new StringBuilder();

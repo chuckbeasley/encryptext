@@ -56,10 +56,10 @@ public class Base64 {
     }
 
     /**
-     * Decodes Base64 data into octects
+     * Decodes Base64 mms into octects
      *
-     * @param base64Data Byte array containing Base64 data
-     * @return Array containing decoded data.
+     * @param base64Data Byte array containing Base64 mms
+     * @return Array containing decoded mms.
      */
     public static byte[] decodeBase64(byte[] base64Data) {
         // RFC 2045 requires that we discard ALL non-Base64 characters
@@ -143,10 +143,10 @@ public class Base64 {
      * Discards any characters outside of the base64 alphabet, per
      * the requirements on page 25 of RFC 2045 - "Any characters
      * outside of the base64 alphabet are to be ignored in base64
-     * encoded data."
+     * encoded mms."
      *
-     * @param data The base-64 encoded data to groom
-     * @return The data, less non-base64 characters (see RFC 2045).
+     * @param data The base-64 encoded mms to groom
+     * @return The mms, less non-base64 characters (see RFC 2045).
      */
     static byte[] discardNonBase64(byte[] data) {
         byte groomedData[] = new byte[data.length];

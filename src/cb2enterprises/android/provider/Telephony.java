@@ -39,7 +39,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * The Telephony provider contains data related to phone operation.
+ * The Telephony provider contains mms related to phone operation.
  *
  * @hide
  */
@@ -173,7 +173,7 @@ public final class Telephony {
         public static final String ERROR_CODE = "error_code";
 
         /**
-         * Meta data used externally.
+         * Meta mms used externally.
          * <P>Type: TEXT</P>
          */
         public static final String META_DATA = "meta_data";
@@ -543,7 +543,7 @@ public final class Telephony {
                     "android.provider.Telephony.SMS_RECEIVED";
 
             /**
-             * Broadcast Action: A new data based SMS message has been received
+             * Broadcast Action: A new mms based SMS message has been received
              * by the device. The intent will have the following extra
              * values:</p>
              *
@@ -571,7 +571,7 @@ public final class Telephony {
              *   <li><em>transactionId (Integer)</em> - The WAP transaction ID</li>
              *   <li><em>pduType (Integer)</em> - The WAP PDU type</li>
              *   <li><em>header (byte[])</em> - The header of the message</li>
-             *   <li><em>data (byte[])</em> - The data payload of the message</li>
+             *   <li><em>mms (byte[])</em> - The mms payload of the message</li>
              *   <li><em>contentTypeParameters (HashMap&lt;String,String&gt;)</em>
              *   - Any parameters associated with the content type
              *   (decoded from the WSP Content-Type header)</li>
@@ -598,7 +598,7 @@ public final class Telephony {
              *
              * <ul>
              *   <li><em>message</em> - An SmsCbMessage object containing the broadcast message
-             *   data. This is not an emergency alert, so ETWS and CMAS data will be null.</li>
+             *   mms. This is not an emergency alert, so ETWS and CMAS mms will be null.</li>
              * </ul>
              *
              * <p>The extra values can be extracted using
@@ -618,7 +618,7 @@ public final class Telephony {
              *
              * <ul>
              *   <li><em>message</em> - An SmsCbMessage object containing the broadcast message
-             *   data, including ETWS or CMAS warning notification info if present.</li>
+             *   mms, including ETWS or CMAS warning notification info if present.</li>
              * </ul>
              *
              * <p>The extra values can be extracted using
@@ -1161,7 +1161,7 @@ public final class Telephony {
         public static final String LOCKED = "locked";
 
         /**
-         * Meta data used externally.
+         * Meta mms used externally.
          * <P>Type: TEXT</P>
          */
         public static final String META_DATA = "meta_data";
@@ -1580,7 +1580,7 @@ public final class Telephony {
             public static final String CT_TYPE = "ctt_t";
 
             /**
-             * The location(on filesystem) of the binary data of the part.
+             * The location(on filesystem) of the binary mms of the part.
              * <P>Type: INTEGER</P>
              */
             public static final String _DATA = "_data";
@@ -1829,7 +1829,7 @@ public final class Telephony {
         public static final String MVNO_TYPE = "mvno_type";
 
         /**
-          * MVNO data
+          * MVNO mms
           * Use the following examples.
           * spn: A MOBILE, BEN NL, ...
           * imsi: 302720x94, 2060188, ...

@@ -58,7 +58,7 @@ public class PduParser {
     private static final int THE_LAST_PART = 1;
 
     /**
-     * The pdu data.
+     * The pdu mms.
      */
     private ByteArrayInputStream mPduDataStream = null;
 
@@ -92,7 +92,7 @@ public class PduParser {
     /**
      * Constructor.
      *
-     * @param pduDataStream pdu data to be parsed
+     * @param pduDataStream pdu mms to be parsed
      */
     public PduParser(byte[] pduDataStream) {
         mPduDataStream = new ByteArrayInputStream(pduDataStream);
@@ -227,7 +227,7 @@ public class PduParser {
     /**
      * Parse pdu headers.
      *
-     * @param pduDataStream pdu data input stream
+     * @param pduDataStream pdu mms input stream
      * @return headers in PduHeaders structure, null when parse fail
      */
     protected PduHeaders parseHeaders(ByteArrayInputStream pduDataStream){
@@ -826,7 +826,7 @@ public class PduParser {
     /**
      * Parse pdu parts.
      *
-     * @param pduDataStream pdu data input stream
+     * @param pduDataStream pdu mms input stream
      * @return parts in PduBody structure
      */
     protected static PduBody parseParts(ByteArrayInputStream pduDataStream) {
@@ -892,7 +892,7 @@ public class PduParser {
                         System.currentTimeMillis()).getBytes());
             }
 
-            /* get part's data */
+            /* get part's mms */
             if (dataLength > 0) {
                 byte[] partData = new byte[dataLength];
                 String partContentType = new String(part.getContentType());
@@ -918,7 +918,7 @@ public class PduParser {
                         }
                     }
                     if (null == partData) {
-                        log("Decode part data error!");
+                        log("Decode part mms error!");
                         return null;
                     }
                     part.setData(partData);
@@ -952,7 +952,7 @@ public class PduParser {
     /**
      * Parse unsigned integer.
      *
-     * @param pduDataStream pdu data input stream
+     * @param pduDataStream pdu mms input stream
      * @return the integer, -1 when failed
      */
     protected static int parseUnsignedInt(ByteArrayInputStream pduDataStream) {
@@ -986,7 +986,7 @@ public class PduParser {
     /**
      * Parse value length.
      *
-     * @param pduDataStream pdu data input stream
+     * @param pduDataStream pdu mms input stream
      * @return the integer
      */
     protected static int parseValueLength(ByteArrayInputStream pduDataStream) {
@@ -1015,7 +1015,7 @@ public class PduParser {
     /**
      * Parse encoded string value.
      *
-     * @param pduDataStream pdu data input stream
+     * @param pduDataStream pdu mms input stream
      * @return the EncodedStringValue
      */
     protected static EncodedStringValue parseEncodedStringValue(ByteArrayInputStream pduDataStream){
@@ -1059,7 +1059,7 @@ public class PduParser {
     /**
      * Parse Text-String or Quoted-String.
      *
-     * @param pduDataStream pdu data input stream
+     * @param pduDataStream pdu mms input stream
      * @param stringType TYPE_TEXT_STRING or TYPE_QUOTED_STRING
      * @return the string without End-of-string in byte array
      */
@@ -1110,8 +1110,8 @@ public class PduParser {
     }
 
     /**
-     * Check TOKEN data defined in RFC2616.
-     * @param ch checking data
+     * Check TOKEN mms defined in RFC2616.
+     * @param ch checking mms
      * @return true when ch is TOKEN, false when ch is not TOKEN
      */
     protected static boolean isTokenCharacter(int ch) {
@@ -1156,8 +1156,8 @@ public class PduParser {
     }
 
     /**
-     * Check TEXT data defined in RFC2616.
-     * @param ch checking data
+     * Check TEXT mms defined in RFC2616.
+     * @param ch checking mms
      * @return true when ch is TEXT, false when ch is not TEXT
      */
     protected static boolean isText(int ch) {
@@ -1217,7 +1217,7 @@ public class PduParser {
     /**
      * Extract a byte value from the input stream.
      *
-     * @param pduDataStream pdu data input stream
+     * @param pduDataStream pdu mms input stream
      * @return the byte
      */
     protected static int extractByteValue(ByteArrayInputStream pduDataStream) {
@@ -1230,7 +1230,7 @@ public class PduParser {
     /**
      * Parse Short-Integer.
      *
-     * @param pduDataStream pdu data input stream
+     * @param pduDataStream pdu mms input stream
      * @return the byte
      */
     protected static int parseShortInteger(ByteArrayInputStream pduDataStream) {
@@ -1250,7 +1250,7 @@ public class PduParser {
     /**
      * Parse Long-Integer.
      *
-     * @param pduDataStream pdu data input stream
+     * @param pduDataStream pdu mms input stream
      * @return long integer
      */
     protected static long parseLongInteger(ByteArrayInputStream pduDataStream) {
@@ -1288,7 +1288,7 @@ public class PduParser {
     /**
      * Parse Integer-Value.
      *
-     * @param pduDataStream pdu data input stream
+     * @param pduDataStream pdu mms input stream
      * @return long integer
      */
     protected static long parseIntegerValue(ByteArrayInputStream pduDataStream) {
@@ -1311,7 +1311,7 @@ public class PduParser {
     /**
      * To skip length of the wap value.
      *
-     * @param pduDataStream pdu data input stream
+     * @param pduDataStream pdu mms input stream
      * @param length area size
      * @return the values in this area
      */
@@ -1330,7 +1330,7 @@ public class PduParser {
      * Parse content type parameters. For now we just support
      * four parameters used in mms: "type", "start", "name", "charset".
      *
-     * @param pduDataStream pdu data input stream
+     * @param pduDataStream pdu mms input stream
      * @param map to store parameters of Content-Type field
      * @param length length of all the parameters
      */
@@ -1513,7 +1513,7 @@ public class PduParser {
     /**
      * Parse content type.
      *
-     * @param pduDataStream pdu data input stream
+     * @param pduDataStream pdu mms input stream
      * @param map to store parameters in Content-Type header field
      * @return Content-Type value
      */
@@ -1583,7 +1583,7 @@ public class PduParser {
     /**
      * Parse part's headers.
      *
-     * @param pduDataStream pdu data input stream
+     * @param pduDataStream pdu mms input stream
      * @param part to store the header informations of the part
      * @param length length of the headers
      * @return true if parse successfully, false otherwise
@@ -1652,8 +1652,8 @@ public class PduParser {
                         /**
                          * From wap-230-wsp-20010705-a.pdf, chapter 8.4.2.21
                          * Content-disposition-value = Value-length Disposition *(Parameter)
-                         * Disposition = Form-data | Attachment | Inline | Token-text
-                         * Form-data = <Octet 128>
+                         * Disposition = Form-mms | Attachment | Inline | Token-text
+                         * Form-mms = <Octet 128>
                          * Attachment = <Octet 129>
                          * Inline = <Octet 130>
                          */

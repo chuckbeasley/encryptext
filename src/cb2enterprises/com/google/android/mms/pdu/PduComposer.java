@@ -78,7 +78,7 @@ public class PduComposer {
     static private final int LONG_INTEGER_LENGTH_MAX = 8;
 
     /**
-     * Block size when read data from InputStream.
+     * Block size when read mms from InputStream.
      */
     static private final int PDU_COMPOSER_BLOCK_SIZE = 1024;
 
@@ -899,7 +899,7 @@ public class PduComposer {
         appendUintvarInteger(partNum);
         for (int i = 0; i < partNum; i++) {
             part = body.getPart(i);
-            mStack.newbuf();  // Leaving space for header lengh and data length
+            mStack.newbuf();  // Leaving space for header lengh and mms length
             PositionMarker attachment = mStack.mark();
 
             mStack.newbuf();  // Leaving space for Content-Type length

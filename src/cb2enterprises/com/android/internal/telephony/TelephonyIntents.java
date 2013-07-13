@@ -121,8 +121,8 @@ public class TelephonyIntents {
 
 
     /**
-     * Broadcast Action: The data connection state has changed for any one of the
-     * phone's mobile data connections (eg, default, MMS or GPS specific connection).
+     * Broadcast Action: The mms connection state has changed for any one of the
+     * phone's mobile mms connections (eg, default, MMS or GPS specific connection).
      * The intent will have the following extra values:</p>
      * <ul>
      *   <li><em>phoneName</em> - A string version of the phone name.</li>
@@ -146,7 +146,7 @@ public class TelephonyIntents {
 
 
     /**
-     * Broadcast Action: An attempt to establish a data connection has failed.
+     * Broadcast Action: An attempt to establish a mms connection has failed.
      * The intent will have the following extra values:</p>
      * <ul>
      *   <li><em>phoneName</em> &mdash A string version of the phone name.</li>
@@ -239,7 +239,7 @@ public class TelephonyIntents {
 
     /**
      * Broadcast Action: A "secret code" has been entered in the dialer. Secret codes are
-     * of the form *#*#<code>#*#*. The intent will have the data URI:</p>
+     * of the form *#*#<code>#*#*. The intent will have the mms URI:</p>
      *
      * <p><code>android_secret_code://&lt;code&gt;</code></p>
      */

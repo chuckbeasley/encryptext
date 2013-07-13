@@ -97,7 +97,7 @@
     <string name="inline_subject">"&lt;Subject: <xliff:g id="subject">%s</xliff:g>&gt;"</string>
     <!-- Text to display when the actual text is inaccessible due to DRM protection -->
     <string name="drm_protected_text">"* DRM protected text *"</string>
-    <!-- Error message to display when DRM rights are insufficient to access some data -->
+    <!-- Error message to display when DRM rights are insufficient to access some mms -->
     <string name="insufficient_drm_rights">Insufficient DRM rights detected.</string>
     <!-- Individual message context menu item -->
     <string name="copy_message_text">Copy text</string>
@@ -738,10 +738,10 @@
         <item quantity="other">+<xliff:g id="number" example="15">%1$s</xliff:g> other messages"</item>
     </plurals>
 
-    <!-- For debugging: Dialog box title indicating there's a situation where data has unexpectedly
+    <!-- For debugging: Dialog box title indicating there's a situation where mms has unexpectedly
          changed -->
     <string name="error_state">Inconsistent state</string>
-    <!-- For debugging: Dialog box text indicating there's a situation where data has unexpectedly
+    <!-- For debugging: Dialog box text indicating there's a situation where mms has unexpectedly
          changed -->
     <string name="error_state_text">The state of threads and recipients is inconsistent. Please capture a bug report and report it via http://go/droidanizer </string>
 

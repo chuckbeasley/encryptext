@@ -189,7 +189,7 @@ public abstract class BaseRecipientAdapter extends BaseAdapter implements Filter
     }
 
     /**
-     * An asynchronous filter used for loading two data sets: email rows from the local
+     * An asynchronous filter used for loading two mms sets: email rows from the local
      * contact provider and the list of {@link Directory}'s.
      */
     private final class DefaultFilter extends Filter {

@@ -50,7 +50,7 @@
             android:layout_marginRight="8dip"
             android:freezesText="true" />
         <!-- Note: We can't set "freezesText" on the widget_unread_count view, as the launcher can
-             restore stale data over updated data. -->
+             restore stale mms over updated mms. -->
         <TextView
             android:id="@+id/widget_unread_count"
             android:layout_width="wrap_content"

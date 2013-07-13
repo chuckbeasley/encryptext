@@ -561,7 +561,7 @@ public class TelephonyManager {
 
     /**
      * Returns a constant indicating the radio technology (network type)
-     * currently in use on the device for data transmission.
+     * currently in use on the device for mms transmission.
      * @return the network type
      *
      * @see #NETWORK_TYPE_UNKNOWN
@@ -1078,7 +1078,7 @@ public class TelephonyManager {
     public static final int DATA_ACTIVITY_DORMANT = 0x00000004;
 
     /**
-     * Returns a constant indicating the type of activity on a data connection
+     * Returns a constant indicating the type of activity on a mms connection
      * (cellular).
      *
      * @see #DATA_ACTIVITY_NONE
@@ -1105,17 +1105,17 @@ public class TelephonyManager {
     public static final int DATA_UNKNOWN        = -1;
     /** Data connection state: Disconnected. IP traffic not available. */
     public static final int DATA_DISCONNECTED   = 0;
-    /** Data connection state: Currently setting up a data connection. */
+    /** Data connection state: Currently setting up a mms connection. */
     public static final int DATA_CONNECTING     = 1;
     /** Data connection state: Connected. IP traffic should be available. */
     public static final int DATA_CONNECTED      = 2;
     /** Data connection state: Suspended. The connection is up, but IP
      * traffic is temporarily unavailable. For example, in a 2G network,
-     * data activity may be suspended when a voice call arrives. */
+     * mms activity may be suspended when a voice call arrives. */
     public static final int DATA_SUSPENDED      = 3;
 
     /**
-     * Returns a constant indicating the current data connection state
+     * Returns a constant indicating the current mms connection state
      * (cellular).
      *
      * @see #DATA_DISCONNECTED
@@ -1235,13 +1235,13 @@ public class TelephonyManager {
 //     * "Voice capable" means that this device supports circuit-switched
 //     * (i.e. voice) phone calls over the telephony network, and is allowed
 //     * to display the in-call UI while a cellular voice call is active.
-//     * This will be false on "data only" devices which can't make voice
+//     * This will be false on "mms only" devices which can't make voice
 //     * calls and don't support any in-call UI.
 //     * <p>
 //     * Note: the meaning of this flag is subtly different from the
 //     * PackageManager.FEATURE_TELEPHONY system feature, which is available
 //     * on any device with a telephony radio, even if the device is
-//     * data-only.
+//     * mms-only.
 //     *
 //     * @hide pending API review
 //     */

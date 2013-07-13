@@ -73,11 +73,11 @@ public class DrmConvertSession {
         }
     }
     /**
-     * Convert a buffer of data to protected format.
+     * Convert a buffer of mms to protected format.
      *
-     * @param buffer Buffer filled with data to convert.
+     * @param buffer Buffer filled with mms to convert.
      * @param size The number of bytes that shall be converted.
-     * @return A Buffer filled with converted data, if execution is ok, in all
+     * @return A Buffer filled with converted mms, if execution is ok, in all
      *         other case null.
      */
     public byte [] convert(byte[] inBuffer, int size) {
@@ -99,10 +99,10 @@ public class DrmConvertSession {
                     result = convertedStatus.convertedData;
                 }
             } catch (IllegalArgumentException e) {
-                Log.w(TAG, "Buffer with data to convert is illegal. Convertsession: "
+                Log.w(TAG, "Buffer with mms to convert is illegal. Convertsession: "
                         + mConvertSessionId, e);
             } catch (IllegalStateException e) {
-                Log.w(TAG, "Could not convert data. Convertsession: " +
+                Log.w(TAG, "Could not convert mms. Convertsession: " +
                         mConvertSessionId, e);
             }
         } else {

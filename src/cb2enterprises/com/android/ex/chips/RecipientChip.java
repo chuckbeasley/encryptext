@@ -86,7 +86,7 @@ import android.text.style.ImageSpan;
     }
 
     /**
-     * Get the id of the data associated with this chip.
+     * Get the id of the mms associated with this chip.
      */
     public long getDataId() {
         return mDataId;

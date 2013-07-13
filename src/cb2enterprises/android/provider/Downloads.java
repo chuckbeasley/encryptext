@@ -113,7 +113,7 @@ public final class Downloads {
         /**
          * Broadcast Action: this is sent by the download manager to the app
          * that had initiated a download when that download completes. The
-         * download's content: uri is specified in the intent's data.
+         * download's content: uri is specified in the intent's mms.
          */
         public static final String ACTION_DOWNLOAD_COMPLETED =
                 "android.intent.action.DOWNLOAD_COMPLETED";
@@ -122,7 +122,7 @@ public final class Downloads {
          * Broadcast Action: this is sent by the download manager to the app
          * that had initiated a download when the user selects the notification
          * associated with that download. The download's content: uri is specified
-         * in the intent's data if the click is associated with a single download,
+         * in the intent's mms if the click is associated with a single download,
          * or Downloads.CONTENT_URI if the notification is associated with
          * multiple downloads.
          * Note: this is not currently sent for downloads that have completed
@@ -132,14 +132,14 @@ public final class Downloads {
                 "android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED";
 
         /**
-         * The name of the column containing the URI of the data being downloaded.
+         * The name of the column containing the URI of the mms being downloaded.
          * <P>Type: TEXT</P>
          * <P>Owner can Init/Read</P>
          */
         public static final String COLUMN_URI = "uri";
 
         /**
-         * The name of the column containing application-specific data.
+         * The name of the column containing application-specific mms.
          * <P>Type: TEXT</P>
          * <P>Owner can Init/Read/Write</P>
          */
@@ -168,7 +168,7 @@ public final class Downloads {
         public static final String COLUMN_FILE_NAME_HINT = "hint";
 
         /**
-         * The name of the column containing the filename where the downloaded data
+         * The name of the column containing the filename where the downloaded mms
          * was actually stored.
          * <P>Type: TEXT</P>
          * <P>Owner can Read</P>
@@ -176,7 +176,7 @@ public final class Downloads {
         public static final String _DATA = "_data";
 
         /**
-         * The name of the column containing the MIME type of the downloaded data.
+         * The name of the column containing the MIME type of the downloaded mms.
          * <P>Type: TEXT</P>
          * <P>Owner can Init/Read</P>
          */
@@ -462,7 +462,7 @@ public final class Downloads {
         /**
          * This download will be saved to the download manager's private
          * partition, as with DESTINATION_CACHE_PARTITION, but the download
-         * will not proceed if the user is on a roaming data connection.
+         * will not proceed if the user is on a roaming mms connection.
          */
         public static final int DESTINATION_CACHE_PARTITION_NOROAMING = 3;
 
@@ -692,7 +692,7 @@ public final class Downloads {
 
         /**
          * This download couldn't be completed because of an
-         * error receiving or processing data at the HTTP level.
+         * error receiving or processing mms at the HTTP level.
          */
         public static final int STATUS_HTTP_DATA_ERROR = 495;
 

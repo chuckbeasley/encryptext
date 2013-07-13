@@ -89,11 +89,11 @@ public class PduPart {
      /**
       * Value of disposition can be set to PduPart when the value is octet in
       * the PDU.
-      * "from-data" instead of Form-data<Octet 128>.
+      * "from-mms" instead of Form-mms<Octet 128>.
       * "attachment" instead of Attachment<Octet 129>.
       * "inline" instead of Inline<Octet 130>.
       */
-     static final byte[] DISPOSITION_FROM_DATA = "from-data".getBytes();
+     static final byte[] DISPOSITION_FROM_DATA = "from-mms".getBytes();
      static final byte[] DISPOSITION_ATTACHMENT = "attachment".getBytes();
      static final byte[] DISPOSITION_INLINE = "inline".getBytes();
 
@@ -115,7 +115,7 @@ public class PduPart {
      private Uri mUri = null;
 
      /**
-      * Part data.
+      * Part mms.
       */
      private byte[] mPartData = null;
 
@@ -129,9 +129,9 @@ public class PduPart {
      }
 
      /**
-      * Set part data. The data are stored as byte array.
+      * Set part mms. The mms are stored as byte array.
       *
-      * @param data the data
+      * @param data the mms
       */
      public void setData(byte[] data) {
          if(data == null) {
@@ -143,8 +143,8 @@ public class PduPart {
      }
 
      /**
-      * @return A copy of the part data or null if the data wasn't set or
-      *         the data is stored as Uri.
+      * @return A copy of the part mms or null if the mms wasn't set or
+      *         the mms is stored as Uri.
       * @see #getDataUri
       */
      public byte[] getData() {
@@ -158,7 +158,7 @@ public class PduPart {
      }
 
      /**
-      * Set data uri. The data are stored as Uri.
+      * Set mms uri. The mms are stored as Uri.
       *
       * @param uri the uri
       */
@@ -167,8 +167,8 @@ public class PduPart {
      }
 
      /**
-      * @return The Uri of the part data or null if the data wasn't set or
-      *         the data is stored as byte array.
+      * @return The Uri of the part mms or null if the mms wasn't set or
+      *         the mms is stored as byte array.
       * @see #getData
       */
      public Uri getDataUri() {
@@ -252,7 +252,7 @@ public class PduPart {
       * Get Content-Location value.
       *
       * @return the value
-      *     return PduPart.disposition[0] instead of <Octet 128> (Form-data).
+      *     return PduPart.disposition[0] instead of <Octet 128> (Form-mms).
       *     return PduPart.disposition[1] instead of <Octet 129> (Attachment).
       *     return PduPart.disposition[2] instead of <Octet 130> (Inline).
       */
@@ -262,7 +262,7 @@ public class PduPart {
 
      /**
       * Set Content-Disposition value.
-      * Use PduPart.disposition[0] instead of <Octet 128> (Form-data).
+      * Use PduPart.disposition[0] instead of <Octet 128> (Form-mms).
       * Use PduPart.disposition[1] instead of <Octet 129> (Attachment).
       * Use PduPart.disposition[2] instead of <Octet 130> (Inline).
       *

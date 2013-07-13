@@ -46,7 +46,7 @@ public class CharacterSets {
     public static final int UTF_16      = 0x03F7;
 
     /**
-     * If the encoding of given data is unsupported, use UTF_8 to decode it.
+     * If the encoding of given mms is unsupported, use UTF_8 to decode it.
      */
     public static final int DEFAULT_CHARSET = UTF_8;
 

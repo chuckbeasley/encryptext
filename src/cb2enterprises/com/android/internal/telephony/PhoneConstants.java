@@ -38,10 +38,10 @@ public class PhoneConstants {
     };
 
     /**
-     * The state of a data connection.
+     * The state of a mms connection.
      * <ul>
      * <li>CONNECTED = IP traffic should be available</li>
-     * <li>CONNECTING = Currently setting up data connection</li>
+     * <li>CONNECTING = Currently setting up mms connection</li>
      * <li>DISCONNECTED = IP not available</li>
      * <li>SUSPENDED = connection is created but IP traffic is
      *                 temperately not available. i.e. voice call is in place
@@ -97,15 +97,15 @@ public class PhoneConstants {
     public static final int APN_ALREADY_INACTIVE   = 4;
 
     /**
-     * APN types for data connections.  These are usage categories for an APN
+     * APN types for mms connections.  These are usage categories for an APN
      * entry.  One APN entry may support multiple APN types, eg, a single APN
      * may service regular internet traffic ("default") as well as MMS-specific
      * connections.<br/>
      * APN_TYPE_ALL is a special type to indicate that this APN entry can
-     * service all data connections.
+     * service all mms connections.
      */
     public static final String APN_TYPE_ALL = "*";
-    /** APN type for default data traffic */
+    /** APN type for default mms traffic */
     public static final String APN_TYPE_DEFAULT = "default";
     /** APN type for MMS traffic */
     public static final String APN_TYPE_MMS = "mms";

@@ -18,7 +18,7 @@
  */
 -->
 
-<com.android.mms.ui.VideoAttachmentView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.cb2enterprises.mms.ui.VideoAttachmentView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/video_attachment_view"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -77,4 +77,4 @@
             android:text="@string/remove" />
 
     </LinearLayout>
-</com.android.mms.ui.VideoAttachmentView>
+</com.cb2enterprises.mms.ui.VideoAttachmentView>

@@ -89,7 +89,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Matcher;
 
-import com.android.mms.R;
+import com.cb2enterprises.mms.R;
 
 /**
  * RecipientEditTextView is an auto complete text view for use with applications
@@ -1614,7 +1614,7 @@ public class RecipientEditTextView extends MultiAutoCompleteTextView implements
     }
 
 
-    /** Returns a collection of data Id for each chip inside this View. May be null. */
+    /** Returns a collection of mms Id for each chip inside this View. May be null. */
     /* package */ Collection<Long> getDataIds() {
         final Set<Long> result = new HashSet<Long>();
         RecipientChip [] chips = getSortedRecipients();
@@ -2020,7 +2020,7 @@ public class RecipientEditTextView extends MultiAutoCompleteTextView implements
 
     /**
      * Replace this currently selected chip with a new chip
-     * that uses the contact data provided.
+     * that uses the contact mms provided.
      */
     // Visible for testing.
     /*package*/ void replaceChip(RecipientChip chip, RecipientEntry entry) {

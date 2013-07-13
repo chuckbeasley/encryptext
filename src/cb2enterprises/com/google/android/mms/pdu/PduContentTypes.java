@@ -36,7 +36,7 @@ public class PduContentTypes {
         "text/vnd.wap.wta-event",                     /* 0x0A */
         "multipart/*",                                /* 0x0B */
         "multipart/mixed",                            /* 0x0C */
-        "multipart/form-data",                        /* 0x0D */
+        "multipart/form-mms",                        /* 0x0D */
         "multipart/byterantes",                       /* 0x0E */
         "multipart/alternative",                      /* 0x0F */
         "application/*",                              /* 0x10 */
@@ -59,7 +59,7 @@ public class PduContentTypes {
         "image/vnd.wap.wbmp",                         /* 0x21 */
         "application/vnd.wap.multipart.*",            /* 0x22 */
         "application/vnd.wap.multipart.mixed",        /* 0x23 */
-        "application/vnd.wap.multipart.form-data",    /* 0x24 */
+        "application/vnd.wap.multipart.form-mms",    /* 0x24 */
         "application/vnd.wap.multipart.byteranges",   /* 0x25 */
         "application/vnd.wap.multipart.alternative",  /* 0x26 */
         "application/xml",                            /* 0x27 */

@@ -422,7 +422,7 @@ public class PduPersister {
                 Uri partURI = Uri.parse("content://mms/part/" + partId);
                 part.setDataUri(partURI);
 
-                // For images/audio/video, we won't keep their data in Part
+                // For images/audio/video, we won't keep their mms in Part
                 // because their renderer accept Uri as source.
                 String type = toIsoString(contentType);
                 if (!ContentType.isImageType(type)
@@ -452,7 +452,7 @@ public class PduPersister {
                                 len = is.read(buffer);
                             }
                         } catch (IOException e) {
-                            Log.e(TAG, "Failed to load part data", e);
+                            Log.e(TAG, "Failed to load part mms", e);
                             c.close();
                             throw new MmsException(e);
                         } finally {
@@ -756,7 +756,7 @@ public class PduPersister {
         }
 
         persistData(part, res, contentType, preOpenedFiles);
-        // After successfully store the data, we should update
+        // After successfully store the mms, we should update
         // the dataUri of the part.
         part.setDataUri(res);
 
@@ -764,18 +764,18 @@ public class PduPersister {
     }
 
     /**
-     * Save data of the part into storage. The source data may be given
+     * Save mms of the part into storage. The source mms may be given
      * by a byte[] or a Uri. If it's a byte[], directly save it
-     * into storage, otherwise load source data from the dataUri and then
-     * save it. If the data is an image, we may scale down it according
+     * into storage, otherwise load source mms from the dataUri and then
+     * save it. If the mms is an image, we may scale down it according
      * to user preference.
      *
-     * @param part The PDU part which contains data to be saved.
+     * @param part The PDU part which contains mms to be saved.
      * @param uri The URI of the part.
      * @param contentType The MIME type of the part.
      * @param preOpenedFiles if not null, a map of preopened InputStreams for the parts.
-     * @throws MmsException Cannot find source data or error occurred
-     *         while saving the data.
+     * @throws MmsException Cannot find source mms or error occurred
+     *         while saving the mms.
      */
     private void persistData(PduPart part, Uri uri,
             String contentType, HashMap<Uri, InputStream> preOpenedFiles)
@@ -832,7 +832,7 @@ public class PduPersister {
                 if (data == null) {
                     dataUri = part.getDataUri();
                     if ((dataUri == null) || (dataUri == uri)) {
-                        Log.w(TAG, "Can't find data for this part.");
+                        Log.w(TAG, "Can't find mms for this part.");
                         return;
                     }
                     // dataUri can look like:
@@ -845,7 +845,7 @@ public class PduPersister {
                     }
 
                     if (LOCAL_LOGV) {
-                        Log.v(TAG, "Saving data to: " + uri);
+                        Log.v(TAG, "Saving mms to: " + uri);
                     }
 
                     byte[] buffer = new byte[8192];
@@ -857,13 +857,13 @@ public class PduPersister {
                             if (convertedData != null) {
                                 os.write(convertedData, 0, convertedData.length);
                             } else {
-                                throw new MmsException("Error converting drm data.");
+                                throw new MmsException("Error converting drm mms.");
                             }
                         }
                     }
                 } else {
                     if (LOCAL_LOGV) {
-                        Log.v(TAG, "Saving data to: " + uri);
+                        Log.v(TAG, "Saving mms to: " + uri);
                     }
                     if (!isDrm) {
                         os.write(data);
@@ -873,7 +873,7 @@ public class PduPersister {
                         if (convertedData != null) {
                             os.write(convertedData, 0, convertedData.length);
                         } else {
-                            throw new MmsException("Error converting drm data.");
+                            throw new MmsException("Error converting drm mms.");
                         }
                     }
                 }
@@ -882,7 +882,7 @@ public class PduPersister {
             Log.e(TAG, "Failed to open Input/Output stream.", e);
             throw new MmsException(e);
         } catch (IOException e) {
-            Log.e(TAG, "Failed to read/write data.", e);
+            Log.e(TAG, "Failed to read/write mms.", e);
             throw new MmsException(e);
         } finally {
             if (os != null) {
@@ -1127,8 +1127,8 @@ public class PduPersister {
 
         SqliteWrapper.update(mContext, mContentResolver, uri, values, null, null);
 
-        // Only update the data when:
-        // 1. New binary data supplied or
+        // Only update the mms when:
+        // 1. New binary mms supplied or
         // 2. The Uri of the part is different from the current one.
         if ((part.getData() != null)
                 || (uri != part.getDataUri())) {

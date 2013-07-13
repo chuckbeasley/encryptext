@@ -65,10 +65,10 @@ public interface Phone {
     };
 
     /**
-     * The state of a data connection.
+     * The state of a mms connection.
      * <ul>
      * <li>CONNECTED = IP traffic should be available</li>
-     * <li>CONNECTING = Currently setting up data connection</li>
+     * <li>CONNECTING = Currently setting up mms connection</li>
      * <li>DISCONNECTED = IP not available</li>
      * <li>SUSPENDED = connection is created but IP traffic is
      *                 temperately not available. i.e. voice call is in place
@@ -81,13 +81,13 @@ public interface Phone {
 
     public enum DataActivityState {
         /**
-         * The state of a data activity.
+         * The state of a mms activity.
          * <ul>
          * <li>NONE = No traffic</li>
          * <li>DATAIN = Receiving IP ppp traffic</li>
          * <li>DATAOUT = Sending IP ppp traffic</li>
          * <li>DATAINANDOUT = Both receiving and sending IP ppp traffic</li>
-         * <li>DORMANT = The data connection is still active,
+         * <li>DORMANT = The mms connection is still active,
          but physical link is down</li>
          * </ul>
          */
@@ -113,15 +113,15 @@ public interface Phone {
     static final String PHONE_IN_ECM_STATE = "phoneinECMState";
 
     /**
-     * APN types for data connections.  These are usage categories for an APN
+     * APN types for mms connections.  These are usage categories for an APN
      * entry.  One APN entry may support multiple APN types, eg, a single APN
      * may service regular internet traffic ("default") as well as MMS-specific
      * connections.<br/>
      * APN_TYPE_ALL is a special type to indicate that this APN entry can
-     * service all data connections.
+     * service all mms connections.
      */
     static final String APN_TYPE_ALL = "*";
-    /** APN type for default data traffic */
+    /** APN type for default mms traffic */
     static final String APN_TYPE_DEFAULT = "default";
     /** APN type for MMS traffic */
     static final String APN_TYPE_MMS = "mms";
@@ -1221,7 +1221,7 @@ public interface Phone {
     /**
      * Invokes RIL_REQUEST_OEM_HOOK_RAW on RIL implementation.
      *
-     * @param data The data for the request.
+     * @param data The mms for the request.
      * @param response <strong>On success</strong>,
      * (byte[])(((AsyncResult)response.obj).result)
      * <strong>On failure</strong>,
@@ -1236,7 +1236,7 @@ public interface Phone {
     /**
      * Invokes RIL_REQUEST_OEM_HOOK_Strings on RIL implementation.
      *
-     * @param strings The strings to make available as the request data.
+     * @param strings The strings to make available as the request mms.
      * @param response <strong>On success</strong>, "response" bytes is
      * made available as:
      * (String[])(((AsyncResult)response.obj).result).
@@ -1306,12 +1306,12 @@ public interface Phone {
     void queryAvailableBandMode(Message response);
 
     /**
-     * @return true if enable data connection on roaming
+     * @return true if enable mms connection on roaming
      */
     boolean getDataRoamingEnabled();
 
     /**
-     * @param enable set true if enable data connection on roaming
+     * @param enable set true if enable mms connection on roaming
      */
     void setDataRoamingEnabled(boolean enable);
 
@@ -1361,7 +1361,7 @@ public interface Phone {
     /**
      * Disables the specified APN type, and switches back to the default APN,
      * if necessary. Switching to the default APN will not happen if default
-     * data traffic has been explicitly disabled via a call to {@link #disableDataConnectivity}.
+     * mms traffic has been explicitly disabled via a call to {@link #disableDataConnectivity}.
      * <p/>Only works for "special" APN types,
      * i.e., not the default APN.
      * @param type The desired APN type. Cannot be {@link #APN_TYPE_DEFAULT}.
@@ -1376,12 +1376,12 @@ public interface Phone {
     int disableApnType(String type);
 
     /**
-     * Report on whether data connectivity is allowed.
+     * Report on whether mms connectivity is allowed.
      */
     boolean isDataConnectivityPossible();
 
     /**
-     * Report on whether data connectivity is allowed for an APN.
+     * Report on whether mms connectivity is allowed for an APN.
      */
     boolean isDataConnectivityPossible(String apnType);
 
@@ -1414,7 +1414,7 @@ public interface Phone {
     String getCdmaMin();
 
     /**
-     * Check if subscription data has been assigned to mMin
+     * Check if subscription mms has been assigned to mMin
      *
      * return true if MIN info is ready; false otherwise.
      */
@@ -1738,8 +1738,8 @@ public interface Phone {
      * enum of GSM+CDMA+LTE props would be a better approach.
      *
      * Get "Restriction of menu options for manual PLMN selection" bit
-     * status from EF_CSP data, this belongs to "Value Added Services Group".
-     * @return true if this bit is set or EF_CSP data is unavailable,
+     * status from EF_CSP mms, this belongs to "Value Added Services Group".
+     * @return true if this bit is set or EF_CSP mms is unavailable,
      * false otherwise
      */
     boolean isCspPlmnEnabled();

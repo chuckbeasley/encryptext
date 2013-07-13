@@ -181,7 +181,7 @@ public class RecipientAlternatesAdapter extends CursorAdapter {
      * - This method ignores all other fields and dedupe solely on the destination.  Normally,
      * if a cursor contains multiple contacts and they have the same destination, we'd still want
      * to show both.
-     * - This method creates a MatrixCursor, so all data will be kept in memory.  We wouldn't want
+     * - This method creates a MatrixCursor, so all mms will be kept in memory.  We wouldn't want
      * to do this if the original cursor is large, but it's okay here because the alternate list
      * won't be that big.
      */
